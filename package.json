@@ -1,11 +1,18 @@
 {
   "name": "04_gulp",
   "version": "1.0.0",
-  "description": "Nomad_Coders_Gulp",
-  "main": "index.js",
+  "description": "Nomad Coders Gulp",
+  "repository": "https://github.com/HoseonLee123/NomadCoders_Gulp.git",
+  "author": "Hoseon Lee <hoseon310@gmail.com>",
+  "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
-  "author": "HoseonLee",
-  "license": "ISC"
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/register": "^7.18.9",
+    "gulp": "^4.0.2"
+  }
 }
